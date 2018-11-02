@@ -1,3 +1,4 @@
+#menu driven program to update,search,sort and delete a dictionary
 name={}
 n=input("Enter the number of elements  :")
 for i in range(n):
@@ -19,7 +20,7 @@ elif ch==2:
 	sh=raw_input("Enter the name to be searched :")
 	for j in name:
 		if name[j]==sh:
-			print "present"
+			print "found at ",j
 			break
 		else :
 			print "not found"
