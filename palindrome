@@ -1,0 +1,12 @@
+#check for palindrome :
+n=input("Enter a limit :")
+r=0
+temp=n
+while(n>0):
+    r1=n%10
+    r=(r*10)+r1
+    n=n/10
+if(temp==r):
+    print "palindrome"
+else:
+    print "not palindrome"
